@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/*body styles*/
+  body {
+  	font-family: 'Open Sans', sans-serif;
+  	padding-top: 50px;
+  	margin: 0;
+  }
+}
+div{
+  color: yellow;
+  border: 23px solid;
+}
+/*nav bar largest package*/
+nav {
+  background:rgb(2, 144, 139);
+  height: 60px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul{
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+ul{
+  display: block;
+  list-style-type: disc;
+}
+/*the package that controls the list items*/
+nav li  {
+display: inline-block;
+padding: 0 15px;
+}
+nav li > a{
+  color: #ffffff;
+  text-decoration: none;
+}
+nav > a{
+color:#ffffff;
+font-family: "Open Sans", sans-serif;
+font-size: 26px;
+font-weight: 700;
+left: 25px;
+position: absolute;
+text-align: left;
+text-decoration: none;
+top: 10px;
+}
+/*the styles for rightside and the span within home section*/
+nav span {
+  font-family: "Open Sans", sans-serif;
+  color: #cfc91d;
+  text-align: left;
+
+}
+li{
+  text-align:-webkit-match-parent;
+/*}this is the end of nav bar styles*/
+header {
+
+}
