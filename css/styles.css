@@ -1,68 +1,163 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-/*body styles*/
-  body {
-  	font-family: 'Open Sans', sans-serif;
-  	padding-top: 50px;
-  	margin: 0;
-  }
-}
-div{
-  color: yellow;
-  border: 23px solid;
-}
-/*nav bar largest package*/
-nav {
-  background:rgb(2, 144, 139);
-  height: 60px;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 100;
-}
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      /*body styles*/
+      body {
+        	font-family: 'Open Sans', sans-serif;
+        	padding-top: 50px;
+        	margin: 0;
+      }
+      section{
+        padding: 50px 0;
+        }
+      /*nav bar largest package*/
+      nav {
+        background:rgb(2, 144, 139);
+        height: 60px;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 100;
+      }
 
-nav ul{
-  position: absolute;
-  right: 25px;
-  top: 5px;
-}
-ul{
-  display: block;
-  list-style-type: disc;
-}
-/*the package that controls the list items*/
-nav li  {
-display: inline-block;
-padding: 0 15px;
-}
-nav li > a{
-  color: #ffffff;
-  text-decoration: none;
-}
-nav > a{
-color:#ffffff;
-font-family: "Open Sans", sans-serif;
-font-size: 26px;
-font-weight: 700;
-left: 25px;
-position: absolute;
-text-align: left;
-text-decoration: none;
-top: 10px;
-}
-/*the styles for rightside and the span within home section*/
-nav span {
-  font-family: "Open Sans", sans-serif;
-  color: #cfc91d;
-  text-align: left;
+      nav ul{
+        position: absolute;
+        right: 25px;
+        top: 5px;
+      }
+      ul{
+        display: block;
+        list-style-type: disc;
+      }
+      /*the package that controls the list items*/
+      nav li  {
+      display: inline-block;
+      padding: 0 15px;
+      }
+      nav li > a{
+        color: #ffffff;
+        text-decoration: none;
+      }
+      nav > a{
+      color:#ffffff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      left: 25px;
+      position: absolute;
+      text-align: left;
+      text-decoration: none;
+      top: 10px;
+      }
+      /*the styles for rightside and the span within home section*/
+      nav span {
+        font-family: "Open Sans", sans-serif;
+        color: #cfc91d;
+        text-align: left;
 
-}
-li{
-  text-align:-webkit-match-parent;
-/*}this is the end of nav bar styles*/
-header {
+      }
+      li{
+        text-align:-webkit-match-parent; }
+      /*}this is the end of nav bar styles*/
+      /*the begginging of the header styles for the about me section*/
+      header {
+      background-attachment: fixed;
+      background-image: url(../img/coat.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: 100% 50%;
+      color: #fff;
+      height: 500px;
+      padding-top: 15%;
+      text-align: center;
+      }
+      header h1{
+        font-style: 36px;
+        margin: 0;
+      }
+      h1{
+        display: block;
+        -webkit-margin-before: 0.83em;
+        -webkit-margin-after: 0.83em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+      }
+      /*the h2 styles in header*/
+      header h2{
+        font-size: 72px;
+        letter-spacing: 20px;
+        margin: 0;
+      }
+      h2{
+        display: block;
+        -webkit-margin-before: 0.83em;
+        -webkit-margin-after: 0.83em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+      }
+       /*the header p styles*/
+       header p{
+        margin-top: 0;
+      }
+      p{
+        display: block;
+        -webkit-margin-before: 0.1em;
+        -webkit-margin-after: 0.1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+      }
+      /*the header img styles*/
+      header img{
+      padding: 35px 0;
+      }
+      /*header a styles */
+      header a {
+      background-color: #cdc71d;
+      color: #0b1016;
+      font-size: 14px;
+      font-weight: bold;
+      padding:10px 35px;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      transition-property: all;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+      transition-delay: initial;
+      a:-webkit-any-link {
+      cursor:auto;
+      }
+      /*end of header*/
+      /*beggining of #aboutme side?*/
+      {
 
-}
+        /*the styles for
+        the title of the about, service, and contact*/
+        /*sections*/
+      #about .title, #service .title, #contact .title {
+          color: #02918c;
+          font-size: 46px;
+          font-weight: bold;
+          margin-bottom: 0;
+        }
+      div{
+          display: block;
+        }
+        /*about section img*/
+      #about img{
+          margin: 15px 0;
+        }
+        /*about section the p */
+      #about > p{
+        color: #7e8287;
+        line-height: 41px;
+        margin: 0 auto;
+        width: 70%;
+      }
+      #about{
+        text-align: center;
+        
+      }
